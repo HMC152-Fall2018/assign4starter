@@ -22,15 +22,20 @@ I've given you a starter file: non_max_suppression.py. You should fill in the im
 in that file (without changing the signature of the function). I've also given you a starter unit test 
 for that function in test_non_max_suppression.py. You'll need to add additional test cases to that file.
 
+To run tests, you can execute ```python test_non_max_suppresion.py```.
+Alternatively, you may find using nose easier (it will show the results of print statements for failing tests, instead of suppressing them.  To run: ```nosetests```.
+
+
 
 Things you’ll need:
 
 * A Github account
-* A machine with Python ≥3.5 and Numpy installed
+* A machine with Python ≥3.5 and Numpy installed. Optionally, you may want ```nose``` installed.
 
 
 ### Grading
 I'll grade considering the following:
+
 * Correctness of ```nms```
 * Potential speed of ```nms```. 
     * Are NumPy calls used instead of explicit for-loops?
@@ -52,4 +57,14 @@ I'll grade considering the following:
 * Do your work in the files ```non_max_suppression.py``` and ```test_non_max_suppression.py```.
 * Commit your files and push to Github. You only need one submission per team, and the last commit on GitHub before the due date will be your submission.
 * Check the repository on Github.com to make sure your files are there.
+
+
+### Hints
+You may find useful:
+
+* ```np.zeros```
+* ```np.less_equal``` (and related)
+* ```np.clip```
+* ```np.logical_not``` (and related)
+*  [Numpy index arrays](https://docs.scipy.org/doc/numpy-1.15.1/user/basics.indexing.html#index-arrays)
 
