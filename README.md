@@ -1,7 +1,7 @@
 # CS 152
 # Assignment 4
 # October 29, 2018
-##  Due November 4, 2018, 11 PM
+##  Due Tuesday, November 6, 2018, 11 PM
 
 In this assignment, you’ll implement and test a non-max-suppression function.  You can work individually or in pairs, but if you work in pairs, all work must be done while you are physically together, working on one computer with one keyboard and mouse, switching off the driver.
 
