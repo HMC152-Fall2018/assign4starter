@@ -77,5 +77,10 @@ You may find useful:
 * ```np.less_equal``` (and related)
 * ```np.clip```
 * ```np.logical_not``` (and related)
+* ```np.argsort```
+* ```np.multiply```
+* ```np.size```
+* Numpy array slicing
+
 *  [Numpy index arrays](https://docs.scipy.org/doc/numpy-1.15.1/user/basics.indexing.html#index-arrays)
 
