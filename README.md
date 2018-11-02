@@ -58,6 +58,17 @@ I'll grade considering the following:
 * Commit your files and push to Github. You only need one submission per team, and the last commit on GitHub before the due date will be your submission.
 * Check the repository on Github.com to make sure your files are there.
 
+### Unit testing
+We're using the unittest class to define unit tests.  You'll need to extend the tests I've given to cover
+other cases. I'd recommend not running the ```test_random_overlapping``` test until you've got all your
+other tests working.
+
+Although you can run test_non_max_suppression.py directly, you may find it easier to use nosetests.
+You can install it with ```pip install nosetests``` (or ```pip install --user nosetests```). Then, just run
+```nosetests``` from the directory containing your tests.
+One large advantage of nosetests is that it'll suppress any print statements for passing tests, but will 
+show print statements for failing tests.  Thus, you can add print statements to your code that'll show
+only on failing tests.
 
 ### Hints
 You may find useful:
